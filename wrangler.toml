@@ -2,4 +2,4 @@ name = "renal-pwa"
 compatibility_date = "2026-06-02"
 
 [assets]
-directory = "."
+directory = "dist"
