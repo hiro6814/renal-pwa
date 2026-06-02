@@ -1,5 +1,5 @@
-const CACHE = 'renal-dose-v1';
-const ASSETS = ['/', '/index.html', '/manifest.json', '/icon-192.png', '/icon-512.png'];
+const CACHE = 'renal-dose-v2';
+const ASSETS = ['/', '/index.html', '/renal-data.js', '/drugs-master.js', '/manifest.json', '/icon-192.png', '/icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
